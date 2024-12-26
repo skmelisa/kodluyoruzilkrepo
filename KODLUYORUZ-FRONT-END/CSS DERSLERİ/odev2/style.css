@@ -1,0 +1,92 @@
+img {
+    margin: auto;
+    display: block;
+    margin-top: 180px;
+}
+
+.container{
+    margin: auto;
+    size: 800px;
+}
+
+
+
+.search-card{
+    background-color: rgb(238, 238, 238)    ;
+    display: grid;
+    place-items: center;
+}
+
+.search-card p{
+    padding: 0%;
+}
+
+.search-card button{
+    float: left;
+    margin: 3px;
+}
+
+.search-card input{
+    width: 300px;
+    padding: 0%;
+}
+
+.first-card{
+    width: 30%;
+    background-color: rgb(161, 250, 241);
+    float: left;
+    height: 150px;
+}
+.first-card p{
+    text-align: center;
+}
+.first-card a{
+    text-align: center;
+    display: block;
+}
+
+.help-card{
+    width: 30%;
+    background-color: rgb(116, 224, 213);
+    float: left;
+    height: 150px;
+}
+
+.help-card :first-child{
+    padding-top: 15px;
+}
+
+.help-card a{
+   display: block;
+   text-align: center;
+
+}
+
+.mail-card{
+    width: 40%;
+    background-color: rgb(98,179,170);
+    float: left;
+    height: 150px;
+    place-items: center;
+}
+
+.mail-card p{
+    text-align: center;
+}
+
+.mail-card input{
+   width: 180%;
+}
+
+.mail-card button{
+    float: left;
+}
+
+.mail-card a{
+    float: left;
+}
+
+.last-card {
+    text-align: center;  
+    margin-top: 180px;
+}
